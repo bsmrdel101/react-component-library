@@ -10,7 +10,8 @@ module.exports = {
     library: 'rclts',
     libraryTarget: 'umd',
   },
-  externals: [nodeExternals()],
+  target: 'web',
+  externals: [nodeExternals()],  
   module: {
     rules: [
       {

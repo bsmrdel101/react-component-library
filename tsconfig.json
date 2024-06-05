@@ -15,6 +15,7 @@
     "isolatedModules": true,
     "jsx": "react",
     "incremental": true,
+    "typeRoots": ["./node_modules/@types", "./dist"],
     "plugins": [
       {
         "name": "next"
