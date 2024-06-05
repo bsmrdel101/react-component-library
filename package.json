@@ -1,17 +1,21 @@
 {
-  "name": "react-component-library-tsx",
-  "version": "1.0.0",
+  "name": "rclts",
+  "version": "4.0.0",
   "description": "Functional catalog of React components.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "webpack"
+    "build": "rm -rf ./dist && webpack"
   },
+  "keywords": [],
   "author": "firecharger101",
   "license": "ISC",
   "dependencies": {
     "react": "^18.3.1",
-    "react-component-library-tsx": "^1.0.0",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "ts-loader": "^9.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.6",

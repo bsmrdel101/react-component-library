@@ -1,3 +1,4 @@
+import React from "react";
 import { generateClasses, parseClasses } from "../utils";
 
 interface Props extends React.HTMLProps<HTMLButtonElement> {

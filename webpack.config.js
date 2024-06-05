@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: 'my-react-component-library',
+    library: 'rclts',
     libraryTarget: 'umd',
   },
   externals: [nodeExternals()],
@@ -16,9 +16,7 @@ module.exports = {
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
+        use: 'ts-loader',
       },
     ],
   },
