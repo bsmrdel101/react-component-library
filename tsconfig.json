@@ -5,7 +5,7 @@
     "allowJs": true,
     "skipLibCheck": true,
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "./lib",
     "strict": false,
     "noEmit": false,
     "esModuleInterop": true,
@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "jsx": "react",
     "incremental": true,
-    "typeRoots": ["./node_modules/@types", "./dist"],
+    "typeRoots": ["./node_modules/@types", "./lib"],
     "plugins": [
       {
         "name": "next"

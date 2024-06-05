@@ -1,13 +1,13 @@
 {
   "name": "rclts",
-  "version": "11.1.1",
+  "version": "11.1.6",
   "description": "Functional catalog of React components.",
-  "main": "dist/index.js",
+  "main": "./lib/index.js",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
-    "build": "rm -rf ./dist && webpack && node src/postbuild.ts"
+    "build": "rm -rf ./lib && webpack && node src/postbuild.ts"
   },
   "keywords": [],
   "author": "firecharger101",
